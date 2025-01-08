@@ -1,6 +1,6 @@
 {
     "name": "watermark-dom-fix",
-    "version": "2.3.1",
+    "version": "2.3.2",
     "description": "watermark for DOM",
     "keywords": [
         "watermark",
@@ -12,7 +12,8 @@
         "lib": "vue-cli-service build --mode production --target lib --name ApprovalWorkFlow --dest lib packages/index.js"
     },
     "files": [
-        "lib/watermark.js"
+        "lib/watermark.js",
+        "lib/watermark.min.js"
     ],
     "optionalDependencies": {},
     "readme": "使用手册https://github.com/saucxs/watermark-dom/blob/master/README.md",
