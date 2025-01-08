@@ -1,23 +1,24 @@
 {
-  "name": "watermark-dom",
-  "version": "2.3.0",
-  "description": "watermark for DOM",
-  "keywords": [
-    "watermark", "watermark-dom"
-  ],
-  "main": "watermark.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "optionalDependencies": {},
-  "readme": "使用手册https://github.com/saucxs/watermark-dom/blob/master/README.md",
-  "readmeFilename": "README.md",
-  "author": "https://github.com/saucxs",
-  "license": "ISC",
-  "dependencies": {
-
-  },
-  "devDependencies": {
-
-  }
+    "name": "watermark-dom-fix",
+    "version": "2.3.1",
+    "description": "watermark for DOM",
+    "keywords": [
+        "watermark",
+        "watermark-dom"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lib": "vue-cli-service build --mode production --target lib --name ApprovalWorkFlow --dest lib packages/index.js"
+    },
+    "files": [
+        "lib/watermark.js"
+    ],
+    "optionalDependencies": {},
+    "readme": "使用手册https://github.com/saucxs/watermark-dom/blob/master/README.md",
+    "readmeFilename": "README.md",
+    "author": "https://github.com/saucxs",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {}
 }
