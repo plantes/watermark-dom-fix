@@ -1,3 +1,3 @@
-import watermark from "./lib/watermark";
+import watermark from "./lib/watermark.min.js";
 
 export default watermark;
